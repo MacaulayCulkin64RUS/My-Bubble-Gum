@@ -9,7 +9,9 @@ int main(){
     cout << "Hello, World!\n";
     int n;     
     cout << "n="; cin >> n;        
-    cout <<f(n)<<" ";     
+    for (int i = 1; i <= n; i++){
+        cout << f(i) << endl; 
+    }
     cout <<endl;  
     return 0;
 }
